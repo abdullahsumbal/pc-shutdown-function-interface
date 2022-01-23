@@ -8,18 +8,18 @@ I clone this project from https://github.com/WebDevSimplified/React-Firebase-Aut
 ## Getting Started
 
 I am assuming you already have read instructions in [Python project](https://github.com/abdullahsumbal/pc-shutdown-listener).
-This project there are instructions to setup a database
+In this project, there are instructions to setup a database and you need database to this project.
 
 ### 1. Get a Firebase Account
 
 ### 2. Create a New Project and Initialize the Authentication and Functions
 
 > Create a new user in the authentication.
-> Functions is not a free feature from firebase. But it is very cheap and it cost 3 cents per months for this project size use.
+> Functions is not a free feature from Firebase. But it is very cheap and it cost 3 cents per months for this project size use.
 
 ### 3. Create a `.env` file in the root directory.
 
-> You can find this project config in the project settings. Add the following with config detials in the `.env` file
+> You can find project config in the project settings. Add the following with config detials in the `.env` file
 
     REACT_APP_FIREBASE_API_KEY=
     REACT_APP_FIREBASE_AUTH_DOMAIN=
@@ -32,6 +32,8 @@ This project there are instructions to setup a database
 
 ### Run `Firebase init`
 
+Install Firebase CLI and Run `Firebase init` and follow the instructions on the console.
+
 ### Run `Firebase deploy`
 
-This will give you a link to test your application.
+This will deploy hosting and functions and will give you a link to test your application.
