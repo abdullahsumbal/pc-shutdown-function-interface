@@ -1,3 +1,10 @@
+This project contains a web interface to shutdown my PC remotely. Once you login the website, there is a shutdown button that triggers firebase function. This firebase function changes a field called "state" in firestore database. A [python script](https://github.com/abdullahsumbal/pc-shutdown-listener) is listening to changes in the database and if the state is set to 0, it initiates the shutdown process.
+
+<img src="images/login.PNG" alt="drawing" width="400"/>
+<img src="images/shutdown.PNG" alt="drawing" width="400"/>
+
+I clone this project from https://github.com/WebDevSimplified/React-Firebase-Auth
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
